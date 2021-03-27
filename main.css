@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: #E6E6E6;
+}
+
+nav {
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+    font-size: 26pt;
+}
+
+
+h2 {
+    font-family: 'Crete Round', serif;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+    font-size: 18pt;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    padding: 8px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    margin-top: 4px;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    min-height: 100px;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    margin: 16px;
+}
+
+.bio {
+    width: 53%;
+}
+
+.bios {
+    width: 90%;
+}
+
+.small-content {
+    width: 25%;
+}
+
+.small-content ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+.img-main {
+    width: 100%;
+    background-color: grey;
+    height: 200px;
+}
+
+
+.profiles {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 16px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+    width: 200px;
+    padding-bottom: 8px;
+}
+
+.card-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    padding: 2px 8px;
+}
+
+.card-subheader {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0px 8px;
+}
+
+/* font-family: 'Crete Round', serif; */
+/* font-family: 'Raleway', sans-serif; */
