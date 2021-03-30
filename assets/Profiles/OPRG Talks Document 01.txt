@@ -1,0 +1,45 @@
+PHILIPPE GOULET COULOMBE  //   https://philippegouletcoulombe.com/
+University of Pennsylvania, Université du Quebec
+Friday 26 March, 2021
+"How is ML Useful for Macro Forecasting? and the Macroeconomy as a Random Forest"
+https://ui.adsabs.harvard.edu/abs/2020arXiv200812477G/abstract
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3633110
+
+https://github.com/OptimalPortfolio/OptimalPortfolio.github.io/blob/main/assets/Profiles/UPenn%2001.png?raw=true
+
+----------------------
+
+LIVIA PARANHOS  //  https://warwick.ac.uk/fac/soc/economics/staff/lsilvaparanhos/
+Univeristy of Warwick
+Friday 02 April, 2021
+"Predicting Inflation with Neural Networks"
+
+https://github.com/OptimalPortfolio/OptimalPortfolio.github.io/blob/main/assets/Profiles/Warwick%2001.png?raw=true
+
+---------------------
+
+DR. ANDREAS JOSEPH  //  https://www.bankofengland.co.uk/research/researchers/andreas-joseph
+Bank of England & DAFM
+Friday 9th April, 2021
+"Parametric Inference with Universal Function Approximators"
+https://www.bankofengland.co.uk/working-paper/2019/shapley-regressions-a-framework-for-statistical-inference-on-machine-learning-models
+
+https://github.com/OptimalPortfolio/OptimalPortfolio.github.io/blob/main/assets/Profiles/BoE%2001.png?raw=true
+
+----------------------
+
+PROF. ANDREW HARVEY  //  http://www.econ.cam.ac.uk/people/emeritus/ach34
+University of Cambridge
+DATE TBA (July)
+TOPIC TBA
+
+https://github.com/OptimalPortfolio/OptimalPortfolio.github.io/blob/main/assets/Profiles/Cambridge%2001.png?raw=true
+
+----------------------
+
+PROF. BENJAMIN MORITZ  //  http://benjaminmoritz.de/
+Ludwig-Maximillians University of Munich & HQ Asset Management
+DATE TBA (April)
+TOPIC TBA
+
+https://github.com/OptimalPortfolio/OptimalPortfolio.github.io/blob/main/assets/Profiles/LM%20Munich%2001.png?raw=true
