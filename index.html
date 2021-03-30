@@ -1,135 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel='stylesheet' href='./main.css'>
+    <link rel='stylesheet' href='./master.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-        });
-        } // End if
-    });
-    });
-    </script>
 </head>
 <body>
-<div class='container hero light' id='home'>
+<div class='container hero light'>
     <img class='hero-image' src='./assets/logo-large-white.png'>
 </div>
 <nav>
-    <a class='nav-image' href='#home'><img src='./assets/logo-small-white.png'></a>
-    <div class='nav-item'><a href='#people'><h2>People</h2></a></div>
-    <div class='nav-item'><a href='#research'><h2>Research</h2></a></div>
-    <div class='nav-item'><a href='#talks'><h2>Talks</h2></a></div>
-    <div class='nav-item'><a href='#industry'><h2>Industry</h2></a></div>
+    <img class='nav-image' src='./assets/logo-small-white.png'>
+    <h2>Home</h2>
+    <h2>People</h2>
+    <h2>Research</h2>
+    <h2><a href  ="Talks.html">Talks</a></h2>
+    <h2>Industry</h2>
 </nav>
-<div class='container dark' id="people">
+<div class='container dark'>
     <h1>People</h1>
     <div class='items'>
         <div class='profile'>
             <img src='./pics/PY.png'>
             <h3>Supervisor</h3>
-            <h4>Parley Rogou Yang</h4>
-            <p>University of Cambridge</p>
-        </div>
-        <div class='profile'>
-            <img src='./pics/CS.jpg'>
-            <h3>Supervisor</h3>
-            <h4>Camilla Schelpe</h4>
-            <p>Cantab Capital Partners</p>
-        </div>
-        <div class='profile'>
-            <img src='./pics/HD.jpg'>
-            <h3>Supervisor</h3>
-            <h4>Hugo Dolan</h4>
-            <p>University College Dublin</p>
+            <h4>Parley Yang</h4>
+            <p>Faculty of Mathematics, University of Cambridge</p>
         </div>
         <div class='profile'>
             <img src='./pics/ACH.jpg'>
             <h3>Supervisor</h3>
             <h4>Anders Hansen</h4>
-            <p>University of Cambridge</p>
+            <p>Faculty of Mathematics, University of Cambridge</p>
+        </div>
+        <div class='profile'>
+            <img src='./pics/CS.jpg'>
+            <h3>Supervisor</h3>
+            <h4>Dr. Camilla Schelpe</h4>
+            <p></p>
+        </div>
+        <div class='profile'>
+            <img src='./pics/HD.png'>
+            <h3>Supervisor</h3>
+            <h4>Hugo Dolan</h4>
+            <p>University College Dublin</p>
         </div>
         <div class='profile'>
             <img src='./pics/ns.png'>
-            <h3>Researcher</h3>
+            <h3>Junior Researcher</h3>
             <h4>Nikhil Shah</h4>
-            <p>University of Cambridge</p>
+            <p>Faculty of Mathematics, University of Cambridge</p>
         </div>
         <div class='profile'>
             <img src='./pics/JS.jpg'>
-            <h3>Researcher</h3>
+            <h3>Junior Researcher</h3>
             <h4>Jenny Shim</h4>
-            <p>University of Oxford</p>
+            <p>Department of Statistics, University of Oxford</p>
         </div>
         <div class='profile'>
-            <img src='./pics/rm.jpg'>
-            <h3>Researcher</h3>
+            <img src='./pics/RM.jpg'>
+            <h3>Junior Researcher (Probational)</h3>
             <h4>Raena McElwee</h4>
             <p>University College Dublin</p>
         </div>
         <div class='profile'>
-            <img src='./pics/rl.png'>
-            <h3>Researcher</h3>
+            <img src='./pics/RL.jpg'>
+            <h3>Junior Researcher (Probational)</h3>
             <h4>Ryan Lucas</h4>
             <p>University College Dublin</p>
         </div>
-       
     </div>
 </div>
-<div class='container light'  id="research">
+<div class='container light'>
     <h1>Research</h1>
     <div class='text-block-wide'>
         <h2>Focus</h2>
-        <p>We shall look at optimal combination of portfolio --- this could be, for example, hedged long on US equities, systematic options trading, macroeconomic predictions and forecasts and etc. We focus on low-frequency data --- data that are available mostly in public and are updated on a daily basis. This means that we assume the portfolio manager to trade at most once a day, and by restricting so, we hope that an optimal strategy would be rather wise and robust.</p>
+        <p>We are looking at optimal portfolio construction --- this could be, for example, hedged long on US equities, systematic options trading, macroeconomic predictions and forecasts and etc. We focus on low-frequency data --- data that are available mostly in public and are updated on a daily basis. This means that we assume the portfolio manager to trade at most once a day, and by restricting so, we hope that an optimal strategy would be rather wise and robust.</p>
     </div>
     
-    <!-- <div class='row'>
+    <div class='row'>
         <div class='text-block'>
             <h2>Research</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>1. The first paper produced by the group will be based on VIX strategies, architectures, and how an investor could improve their portfolio by systematically trading VIX.
+                This paper will engage heavily with the asset management literature, where Machine Learning can be seen as a mean to a financial end.
+                <br><br>
+            2. The second paper produced by the group will be based on various, more fundamental Machine Learning / Time Series methods for portfolio management. This paper will engage more substantially with the literature from Econometrics and Machine Learning. Finance in this case can be seen as a tool for Machine Learning evaluation, and the destination of a Machine Learnig application.</p>
         </div>
         <div class='text-block'>
-            <h2>Other Materials</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <h2>Talks</h2>
+            <p>We have been hosting regular discussions with professors and researchers in economics, econometrics and applied machine learning.</p>
         </div>
-    </div> -->
-</div>
-<div class='container dark'  id="talks">
-    <h1>Talks</h1>
-    <div class='text-block-wide'>
-        <h2>Recent Talks</h2>
-        <p>Talks coming soon...</p>
     </div>
 </div>
-<div class='container light'  id="industry">
+<div class='container dark'>
     <h1>Industry</h1>
     <div class='text-block-wide'>
         <h2>Contact Us</h2>
-        <p>oprg.general@gmail.com</p>
+        <p>We are actively seeking industry collaboration. Contact us on oprg.general@gmail.com</p>
     </div>
 </div>
-
 </body>
 </html>
