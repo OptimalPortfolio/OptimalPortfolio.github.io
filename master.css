@@ -90,7 +90,7 @@ p {
 nav {
     width: 100%;
     height: 80px;
-    background: rgb(0, 0, 0,0.4);
+    background: rgb(0, 0, 0,0.1);
     position: fixed;
     color: white;
     bottom: 0px;
@@ -98,41 +98,16 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
-}
-
-.nav-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 100%;
-}
-
-.nav-item:hover {
-    background-color: rgba(0,0,0,0.15);
-    transition: ease-in 0.5s background-color;
 }
 
 nav h2 {
     padding: 0px 30px;
-    font-size:16px;
-}
-
-a:link {
-    text-decoration: none;
 }
 
 .nav-image {
     height: 45px;
-    justify-self: flex-start;
-    left: 5%;
     position: fixed;
-}
-
-.nav-image img {
-    height: 45px;
-    justify-self: flex-start;
+    left: 20%;
 }
 
 .dark h1 {
@@ -140,11 +115,9 @@ a:link {
 }
 
 .items {
-    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .profile {
@@ -158,7 +131,7 @@ a:link {
     display: flex;
     flex-direction: column;
     width: 150px;
-    
+    height: 150px;
     margin-bottom: 8px;
     
 }
@@ -167,5 +140,4 @@ a:link {
     display: flex;
     flex-direction: column;
 }
-
 
