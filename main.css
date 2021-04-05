@@ -75,7 +75,7 @@ main {
     font-size: 12pt;
 }
 
-.img {
+.img a{
     width: 200px;
     height: 200px;
     background-color: grey;
