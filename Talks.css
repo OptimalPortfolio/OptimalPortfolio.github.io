@@ -143,11 +143,12 @@ nav h2 {
 /* Container dark */
 .talk-item {
   display: flex;
+  width: 150em;
   margin: 1em ;
 }
 
 .talk-info {
-  width: 100em;
+  width: 120em;
   display: flex;
   background: white;
 }
