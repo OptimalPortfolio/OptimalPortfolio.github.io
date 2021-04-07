@@ -7,9 +7,9 @@ nav {
     display:flex;
     width:100%;
     flex-direction: column;
-    padding: 20px 40px;
+    padding: 20px 60px;
     background-color: white;
-    box-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+    box-shadow: 3px 3px 50px rgba(0,0,0,0.16);
 }
 
 h1 {
