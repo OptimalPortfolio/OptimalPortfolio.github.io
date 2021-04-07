@@ -119,3 +119,11 @@ main {
 
 /* font-family: 'Crete Round', serif; */
 /* font-family: 'Raleway', sans-serif; */
+
+.institutes {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    vertical-align: center;
+}
