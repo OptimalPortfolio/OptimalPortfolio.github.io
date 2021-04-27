@@ -3,19 +3,25 @@ body {
   padding: 0;
   background: rgb(56, 126, 208);
 }
+a {
+  color: black;
+}
 
 h1 {
   font-family: "Crete Round", serif;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
   padding-bottom: 8px;
+  color: black;
 }
 
 h2 {
   font-family: "Crete Round", serif;
+  color: black;
 }
 
 h3 {
   font-family: "Raleway", sans-serif;
+  color: black;
   padding: 0px;
   margin: 0px;
   font-size: 16px;
@@ -23,6 +29,7 @@ h3 {
 
 h4 {
   font-family: "Raleway", sans-serif;
+  color: black;
   padding: 0px;
   margin: 0px;
   font-size: 12px;
@@ -30,9 +37,10 @@ h4 {
 
 p {
   font-family: "Raleway", sans-serif;
+  color: black;
   padding: 0px;
   margin: 0px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .container {
@@ -40,7 +48,7 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  padding: 30px 5em;
+  padding: 30px 20%;
   box-sizing: border-box;
   justify-content: center;
 }
@@ -58,6 +66,11 @@ p {
     rgba(56, 126, 208, 1) 0%,
     rgba(0, 203, 250, 1) 100%
   );
+}
+
+.vlight {
+  color: black;
+  background: white;
 }
 
 .hero-image {
@@ -87,7 +100,7 @@ p {
 }
 
 nav {
-  width: 100%;
+  width: 105%;
   height: 80px;
   background: rgb(0, 0, 0, 0.1);
   position: fixed;
@@ -103,6 +116,73 @@ nav h2 {
   padding: 0px 30px;
 }
 
+.menubutton {
+  font-family: "Crete Round", serif;
+  color: white;
+  text-decoration: none;
+}
+
+.menubutton::before {
+  content: "";
+  position: absolute;
+  color: white;
+  overflow: hidden;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.menubutton:hover {
+  color: rgb(177, 193, 211);
+  width: 100%;
+  transform-origin: right;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.linkhover {
+  font-family: "Crete Round", serif;
+  color: purple;
+  text-decoration: underline;
+}
+
+.linkhover::before {
+  content: "";
+  position: absolute;
+  color: purple;
+  text-decoration: underline;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.linkhover:hover {
+  color: rgb(181, 178, 178);
+  width: 100%;
+  text-decoration: underline;
+  transform-origin: right;
+  transition: 0.5s;
+}
+
+.bodylinkhover {
+  font-family: "Raleway", serif;
+  color: purple;
+  text-decoration: underline;
+}
+
+.bodylinkhover::before {
+  content: "";
+  position: absolute;
+  color: purple;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.bodylinkhover:hover {
+  color: rgb(181, 178, 178);
+  width: 100%;
+  transform-origin: right;
+  transition: 0.5s;
+}
+
 .nav-image {
   height: 45px;
   position: fixed;
@@ -111,7 +191,7 @@ nav h2 {
 }
 
 .dark h1 {
-  color: white;
+  color: black;
 }
 
 .items {
@@ -138,112 +218,4 @@ nav h2 {
 .profile {
   display: flex;
   flex-direction: column;
-}
-
-/* Container dark */
-.talk-item {
-  display: flex;
-  width: 100%;
-  margin: 1em;
-  word-wrap: break-word;
-}
-
-.talk-info {
-  width: 84%;
-  display: flex;
-  background: white;
-  word-wrap: break-word;
-}
-
-.date {
-  background-color: rgba(0, 203, 250, 1);
-  font-family: "Crete Round", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 5%;
-  min-width: 16%;
-  max-width: 16%;
-  text-align: center;
-  font-weight: bold;
-}
-
-.date {
-  font-size: 2em;
-}
-
-.description {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  color: black;
-  padding: 2em 0;
-}
-
-.container h1 {
-  font-size: 2.5em;
-}
-
-.description h2 {
-  margin-top: 0;
-  color: rgba(0, 203, 250, 1);
-  font-size: 2em;
-}
-
-.description p {
-  margin: 0.5em 0;
-}
-
-.description span {
-  font-family: "Raleway", sans-serif;
-  margin: 0.5em 0;
-  font-weight: bold;
-}
-
-.description a {
-  color: rgba(0, 203, 250, 1);
-}
-
-.logo {
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 1em;
-  background: white;
-}
-
-.logo img {
-  width: 10em;
-  height: 10em;
-  margin: 0;
-}
-
-.sign-up {
-  padding: 2em 0;
-}
-
-.sign-up h2 {
-  font-size: 3em;
-  color: white;
-  text-align: center;
-  width: 100%;
-}
-
-.sign-link {
-  text-align: center;
-}
-
-.sign-link a {
-  color: rgba(0, 203, 250, 1);
-}
-
-/* Container Light */
-.light h1 {
-  border-bottom: 2px solid black;
-}
-
-.light .date {
-  background: black;
-  color: white;
 }
