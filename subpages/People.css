@@ -158,13 +158,13 @@ body {
   .bodylinkhover {
     font-family: "Raleway", serif;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   .bodylinkhover::before {
     content: "";
     position: absolute;
-    color: white;
+    color: grey;
     overflow: hidden;
     transition: 0.5s;
   }
