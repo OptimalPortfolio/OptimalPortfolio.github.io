@@ -37,7 +37,6 @@ p {
 
 .container {
   width: 100%;
-  min-height: 80vh;
   display: flex;
   flex-direction: column;
   padding: 30px 5em;
@@ -164,7 +163,7 @@ nav h2 {
 /* Container dark */
 .talk-item {
   display: flex;
-  width: 100%;
+  width: 97%;
   margin: 1em;
   word-wrap: break-word;
 }
@@ -198,7 +197,7 @@ nav h2 {
   flex-direction: column;
   background: white;
   color: black;
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 
 .container h1 {
