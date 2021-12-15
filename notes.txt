@@ -1,0 +1,3 @@
+Changes to make:
+	- add Bobby
+	- drop and create the section 'previous members'
