@@ -3,6 +3,10 @@ body {
   padding: 0;
   background: rgb(56, 126, 208);
 }
+li {
+    padding: 5;
+    list-style-type: circle;
+}
 a {
   color: black;
 }
@@ -45,7 +49,7 @@ p {
 
 .container {
   width: 100%;
-  min-height: 80vh;
+  min-height: 220vh;
   display: flex;
   flex-direction: column;
   padding: 30px 20%;
@@ -219,3 +223,5 @@ nav h2 {
   display: flex;
   flex-direction: column;
 }
+
+
